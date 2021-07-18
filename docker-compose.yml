@@ -5,7 +5,6 @@ services:
     ports:
       - 4000:80
     container_name: coursematerial
-
   watchtower:
     image: containrrr/watchtower
     environment:
